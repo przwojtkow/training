@@ -14,6 +14,6 @@
      x.num.add(BigInteger.ONE),
      x.value.multiply(x.num.add(BigInteger.ONE))));
  return allFactorials.filter(
-   (x) -> x.num.equals(num)).findAny().get().value;
+   (x) -> x.num.equals(num)).findOne().get().value;
  	}
  }
